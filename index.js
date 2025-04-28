@@ -12,7 +12,12 @@ let side = 120;
 let grassArr = [];
 let grassEaterArr = [];
 let predatorArr = [];
-
+// for (let y = 0; y < rows; y++) {
+//     matrix[y] = [];
+//     for (let x = 0; x < cols; x++) {
+//         matrix[y][x] = Math.floor(random(0, 4)); // Random between 0, 1, 2, 3
+//     }
+// }
 function setup() {
     frameRate(5);
     createCanvas(matrix[0].length * side, matrix.length * side);
